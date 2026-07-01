@@ -7,6 +7,7 @@ Community skills registry for [OpenClaw](https://github.com/openclaw/openclaw).
 | Skill | Description |
 |-------|-------------|
 | [stream-to-nas](skills/stream-to-nas/SKILL.md) | 流媒体下载并上传到 NAS 的自动化工具 |
+| [tweetclaw](skills/tweetclaw/SKILL.md) | X/Twitter workflows through the TweetClaw OpenClaw plugin with explicit approval before account-changing actions |
 
 ## Usage
 
@@ -14,6 +15,7 @@ Copy or symlink a skill folder into your `~/.openclaw/workspace/skills/` directo
 
 ```bash
 cp -r skills/stream-to-nas ~/.openclaw/workspace/skills/
+cp -r skills/tweetclaw ~/.openclaw/workspace/skills/
 ```
 
 ## Contributing
